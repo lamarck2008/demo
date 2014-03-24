@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:color="@color/rect_stroke_default"
+        android:width="@dimen/rect_stroke_thickness" />
+
+    <corners android:radius="@dimen/rect_corner_radius" />
+
+</shape>

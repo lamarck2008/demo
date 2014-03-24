@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- arrays used in post page -->
+    <string-array name="post_groups">
+        <item>附近的人</item>
+        <item>朋友</item>
+        <item>时尚买家</item>
+        <item>杂志编辑</item>
+    </string-array>
+
+    <!-- arrays used in browse page -->
+    <string-array name="browse_tab_titles">
+        <item>所有</item>
+        <item>附近</item>
+        <item>粉丝</item>
+        <item>我</item>
+    </string-array>
+    <string-array name="browse_tab_drawables">
+        <item>@drawable/tab_all</item>
+        <item>@drawable/tab_nearby</item>
+        <item>@drawable/tab_fans</item>
+        <item>@drawable/tab_my</item>
+    </string-array>
+
+    <!-- arrays used in share page -->
+    <string-array name="share_tab_titles">
+        <item>所有</item>
+        <item>粉丝</item>
+        <item>我</item>
+        <item>发现</item>
+    </string-array>
+    <string-array name="share_tab_drawables">
+        <item>@drawable/tab_all</item>
+        <item>@drawable/tab_fans</item>
+        <item>@drawable/tab_my</item>
+        <item>@drawable/tab_find</item>
+    </string-array>
+
+    <!-- arrays used in bonus page -->
+    <string-array name="bonus_tab_titles">
+        <item>等级</item>
+        <item>排名</item>
+        <item>兑换</item>
+        <item>充值</item>
+    </string-array>
+    <string-array name="bonus_tab_drawables">
+        <item>@drawable/tab_level</item>
+        <item>@drawable/tab_ranking</item>
+        <item>@drawable/tab_exchange</item>
+        <item>@drawable/tab_charge</item>
+    </string-array>
+    <string-array name="bonus_tab_contents">
+        <item>@id/bonus_level</item>
+        <item>@id/bonus_ranking</item>
+        <item>@id/bonus_exchange</item>
+        <item>@id/bonus_charge</item>
+    </string-array>
+    <string-array name="bonus_history_contents">
+        <item>帮助</item>
+        <item>做出决策</item>
+        <item>获得</item>
+        <item>积分</item>
+        <item>发布决策</item>
+        <item>减少</item>
+        <item>积分</item>
+    </string-array>
+
+    <!-- arrays used in decision page -->
+    <string-array name="decision_time_hint">
+        <item>天</item>
+        <item>小时</item>
+        <item>分钟</item>
+        <item>前</item>
+        <item>刚刚</item>
+    </string-array>
+
+</resources>

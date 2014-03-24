@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DecisionActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/decision_margin_h1"
+            android:layout_marginRight="@dimen/decision_margin_h1"
+            android:layout_marginTop="@dimen/decision_margin_v1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/decision_portrait"
+                    android:layout_width="@dimen/decision_portrait_size"
+                    android:layout_height="@dimen/decision_portrait_size"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/cd_portrait" />
+
+                <TextView
+                    android:id="@+id/decision_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/decision_portrait"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/decision_margin_h2"
+                    android:textColor="@color/decision_text_black"
+                    android:textSize="@dimen/decision_name_text_size" />
+
+                <TextView
+                    android:id="@+id/decision_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/decision_name"
+                    android:layout_below="@id/decision_name"
+                    android:layout_marginTop="@dimen/decision_margin_v2"
+                    android:textColor="@color/decision_text_black"
+                    android:textSize="@dimen/decision_time_text_size" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/decision_countdown"
+                        android:textColor="@color/decision_text_orange"
+                        android:textSize="@dimen/decision_info_text_size" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/decision_margin_h3"
+                        android:layout_marginRight="@dimen/decision_margin_h3"
+                        android:layout_gravity="center"
+                        android:src="@drawable/countdown"
+                        android:contentDescription="@string/cd_icon" />
+
+                    <TextView
+                        android:id="@+id/decision_countdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/decision_text_black"
+                        android:textSize="@dimen/decision_info_text_size" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/decision_margin_v3" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/decision_bonus"
+                        android:textColor="@color/decision_text_orange"
+                        android:textSize="@dimen/decision_info_text_size" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/decision_margin_h3"
+                        android:layout_marginRight="@dimen/decision_margin_h3"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bonus_orange"
+                        android:contentDescription="@string/cd_icon" />
+
+                    <TextView
+                        android:id="@+id/decision_bonus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@color/decision_text_black"
+                        android:textSize="@dimen/decision_info_text_size" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/decision_margin_v4"
+            android:layout_marginBottom="@dimen/decision_margin_v4"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/decision_image_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/cd_option_image" />
+
+                <ImageButton
+                    android:id="@+id/decision_mark_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/decision_margin_v3"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/like_red_hollow"
+                    android:contentDescription="@string/cd_button" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/decision_margin_h4"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/decision_image_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/cd_option_image" />
+
+                <ImageButton
+                    android:id="@+id/decision_mark_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/decision_margin_v3"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/like_red_hollow"
+                    android:contentDescription="@string/cd_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/decision_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/decision_margin_h1"
+            android:layout_marginRight="@dimen/decision_margin_h1"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/decision_text_black"
+            android:textSize="@dimen/decision_msg_text_size" />
+
+    </LinearLayout>
+
+</ScrollView>

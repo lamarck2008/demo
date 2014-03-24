@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShareActivity" >
+
+    <com.md4u.demo.MDScrollView
+        android:id="@+id/share_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/share_widget"
+        android:background="@drawable/tab_widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_widget_height"
+        android:orientation="horizontal" />
+
+</LinearLayout>

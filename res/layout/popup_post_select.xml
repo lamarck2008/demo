@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/semi_transparent_black" />
+
+    <LinearLayout
+        android:background="@drawable/tab_widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/post_select_camera"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_widget_height"
+            android:layout_weight="1"
+            android:background="@color/tab_widget_background"
+            android:text="@string/post_select_camera"
+            android:textColor="@color/tab_widget_text"
+            android:textSize="@dimen/tab_widget_text_size" />
+
+        <Button
+            android:id="@+id/post_select_album"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_widget_height"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/tab_widget_divider_width"
+            android:background="@color/tab_widget_background"
+            android:text="@string/post_select_album"
+            android:textColor="@color/tab_widget_text"
+            android:textSize="@dimen/tab_widget_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>

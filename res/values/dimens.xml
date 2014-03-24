@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dimens for shared shapes -->
+    <dimen name="rect_corner_radius">2dp</dimen>
+    <dimen name="rect_stroke_thickness">1dp</dimen>
+    <dimen name="bar_corner_radius">4dp</dimen>
+
+    <!-- dimens for buttons -->
+    <dimen name="small_button_width">56dp</dimen>
+    <dimen name="small_button_height">28dp</dimen>
+    <dimen name="small_button_text_size">14sp</dimen>
+    <dimen name="medium_button_width">64dp</dimen>
+    <dimen name="medium_button_height">32dp</dimen>
+    <dimen name="medium_button_text_size">16sp</dimen>
+
+    <!-- dimens for login page -->
+    <dimen name="login_margin_v1">80dp</dimen>
+    <dimen name="login_margin_v2">8dp</dimen>
+    <dimen name="login_margin_v3">-12dp</dimen>
+    <dimen name="login_margin_v4">-8dp</dimen>
+    <dimen name="login_margin_v5">16dp</dimen>
+    <dimen name="login_margin_v6">32dp</dimen>
+    <dimen name="login_margin_v7">36dp</dimen>
+    <dimen name="login_margin_v8">12dp</dimen>
+    <dimen name="login_margin_h1">28dp</dimen>
+    <dimen name="login_margin_h2">8dp</dimen>
+    <dimen name="login_margin_h3">16dp</dimen>
+    <dimen name="login_margin_h4">24dp</dimen>
+    <dimen name="login_margin_h5">4dp</dimen>
+    <dimen name="login_input_padding">8dp</dimen>
+    <dimen name="login_input_width">116dp</dimen>
+    <dimen name="login_forget_pwd_width">160dp</dimen>
+    <dimen name="login_text_size">14sp</dimen>
+
+    <!-- dimens for main page -->
+    <dimen name="main_margin">24dp</dimen>
+    <dimen name="main_strip_width">8dp</dimen>
+    <dimen name="main_post_height">280dp</dimen>
+    <dimen name="main_browse_height">240dp</dimen>
+    <dimen name="main_share_height">200dp</dimen>
+    <dimen name="main_bonus_height">180dp</dimen>
+    <dimen name="main_post_margin">120dp</dimen>
+    <dimen name="main_browse_margin">120dp</dimen>
+    <dimen name="main_share_margin">100dp</dimen>
+    <dimen name="main_bonus_margin">100dp</dimen>
+    <dimen name="main_account_margin">20dp</dimen>
+    <dimen name="main_fans_margin">40dp</dimen>
+    <dimen name="main_text_size">32sp</dimen>
+
+    <!-- dimens for page title -->
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_margin_left">24dp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="title_button_margin">8dp</dimen>
+
+    <!-- dimens for tab widget -->
+    <dimen name="tab_widget_margin_v">4dp</dimen>
+    <dimen name="tab_widget_height">64dp</dimen>
+    <dimen name="tab_widget_divider_width">1dp</dimen>
+    <dimen name="tab_widget_text_size">16sp</dimen>
+
+    <!-- dimens for waterfall -->
+    <dimen name="waterfall_margin_v">2dp</dimen>
+    <dimen name="waterfall_margin_h1">4dp</dimen>
+    <dimen name="waterfall_margin_h2">12dp</dimen>
+    <dimen name="waterfall_strip_width">8dp</dimen>
+    <dimen name="waterfall_icon_size">14dp</dimen>
+    <dimen name="waterfall_text_size">14sp</dimen>
+
+    <!-- dimens for post page -->
+    <dimen name="post_image_margin_v">32dp</dimen>
+    <dimen name="post_image_margin_h">8dp</dimen>
+    <dimen name="post_margin_v1">24dp</dimen>
+    <dimen name="post_margin_v2">48dp</dimen>
+    <dimen name="post_margin_h1">32dp</dimen>
+    <dimen name="post_margin_h2">8dp</dimen>
+    <dimen name="post_margin_h3">4dp</dimen>
+    <dimen name="post_text_box_padding">8dp</dimen>
+    <dimen name="post_text_width">64dp</dimen>
+    <dimen name="post_number_width">48dp</dimen>
+    <dimen name="post_group_width">96dp</dimen>
+    <dimen name="post_msg_text_size">16sp</dimen>
+    <dimen name="post_prop_text_size">16sp</dimen>
+    <dimen name="post_loading_text_size">16sp</dimen>
+
+    <!-- dimens for bonus page -->
+    <dimen name="bonus_level_margin_v1">16dp</dimen>
+    <dimen name="bonus_level_margin_v2">16dp</dimen>
+    <dimen name="bonus_level_margin_h1">24dp</dimen>
+    <dimen name="bonus_level_margin_h2">48dp</dimen>
+    <dimen name="bonus_level_margin_h3">24dp</dimen>
+    <dimen name="bonus_level_divider_height">1dp</dimen>
+    <dimen name="bonus_level_title_text_size">20sp</dimen>
+    <dimen name="bonus_level_time_text_size">24sp</dimen>
+    <dimen name="bonus_history_margin_h1">112dp</dimen>
+    <dimen name="bonus_history_margin_h2">20dp</dimen>
+    <dimen name="bonus_history_margin_h3">6dp</dimen>
+    <dimen name="bonus_history_margin_h4">106dp</dimen>
+    <dimen name="bonus_history_height">96dp</dimen>
+    <dimen name="bonus_history_circle_size">14dp</dimen>
+    <dimen name="bonus_history_timeline_width">2dp</dimen>
+    <dimen name="bonus_history_timeline_height_up">16dp</dimen>
+    <dimen name="bonus_history_timeline_height_down">80dp</dimen>
+    <dimen name="bonus_history_time_width">80dp</dimen>
+    <dimen name="bonus_history_time_text_size">12sp</dimen>
+    <dimen name="bonus_history_content_text_size">16sp</dimen>
+
+    <!-- dimens for fans page -->
+    <dimen name="fans_margin_v">24dp</dimen>
+    <dimen name="fans_margin_h">48dp</dimen>
+    <dimen name="fans_search_box_padding">8dp</dimen>
+    <dimen name="fans_text_size">16sp</dimen>
+    <dimen name="fans_item_divider_height">1dp</dimen>
+    <dimen name="fans_item_height">72dp</dimen>
+    <dimen name="fans_item_margin_h1">24dp</dimen>
+    <dimen name="fans_item_margin_h2">24dp</dimen>
+    <dimen name="fans_item_portrait_size">48dp</dimen>
+    <dimen name="fans_item_text_size">18sp</dimen>
+
+    <!-- dimens for decision page -->
+    <dimen name="decision_margin_v1">16dp</dimen>
+    <dimen name="decision_margin_v2">20dp</dimen>
+    <dimen name="decision_margin_v3">4dp</dimen>
+    <dimen name="decision_margin_v4">32dp</dimen>
+    <dimen name="decision_margin_h1">16dp</dimen>
+    <dimen name="decision_margin_h2">4dp</dimen>
+    <dimen name="decision_margin_h3">2dp</dimen>
+    <dimen name="decision_margin_h4">8dp</dimen>
+    <dimen name="decision_portrait_size">72dp</dimen>
+    <dimen name="decision_name_text_size">24sp</dimen>
+    <dimen name="decision_time_text_size">12sp</dimen>
+    <dimen name="decision_info_text_size">16sp</dimen>
+    <dimen name="decision_msg_text_size">16sp</dimen>
+
+    <!-- dimens for result page -->
+    <dimen name="result_margin_v1">16dp</dimen>
+    <dimen name="result_margin_v2">32dp</dimen>
+    <dimen name="result_margin_h1">16dp</dimen>
+    <dimen name="result_margin_h2">32dp</dimen>
+    <dimen name="result_margin_h3">4dp</dimen>
+    <dimen name="result_margin_h4">8dp</dimen>
+    <dimen name="result_margin_h5">8dp</dimen>
+    <dimen name="result_margin_h6">64dp</dimen>
+    <dimen name="result_bar_size">8dp</dimen>
+    <dimen name="result_bar_container_size">32dp</dimen>
+    <dimen name="result_info_text_size">16sp</dimen>
+    <dimen name="result_vote_text_size">20sp</dimen>
+    <dimen name="result_msg_text_size">16sp</dimen>
+
+</resources>

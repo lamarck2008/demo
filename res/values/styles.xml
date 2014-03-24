@@ -1,0 +1,99 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Login page theme. -->
+    <style name="AppLogin" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Main page theme. -->
+    <style name="AppMain" parent="android:Theme.Light.NoTitleBar">
+    </style>
+
+    <!-- Activity page theme. -->
+    <style name="AppTitle">
+        <item name="android:background">@color/title_background</item>
+    </style>
+    <style name="AppPage" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">@dimen/title_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/AppTitle</item>
+    </style>
+
+    <!-- Button styles. -->
+    <style name="ButtonBase">
+        <item name="android:background">@drawable/rounded_rectangle</item>
+        <item name="android:textColor">@color/rect_foreground_default</item>
+    </style>
+    <style name="SmallButton" parent="ButtonBase">
+        <item name="android:layout_width">@dimen/small_button_width</item>
+        <item name="android:layout_height">@dimen/small_button_height</item>
+        <item name="android:textSize">@dimen/small_button_text_size</item>
+    </style>
+    <style name="MediumButton" parent="ButtonBase">
+        <item name="android:layout_width">@dimen/medium_button_width</item>
+        <item name="android:layout_height">@dimen/medium_button_height</item>
+        <item name="android:textSize">@dimen/medium_button_text_size</item>
+    </style>
+
+    <!-- Text style of main page. -->
+    <style name="MainText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/main_margin</item>
+        <item name="android:layout_marginTop">@dimen/main_margin</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+    </style>
+
+    <!-- Menu button style of title. -->
+    <style name="TitleMenu">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/title_margin_left</item>
+        <item name="android:src">@drawable/title_menu</item>
+    </style>
+
+    <!-- Text style of title. -->
+    <style name="TitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <!-- Button style of title. -->
+    <style name="TitleButton" parent="MediumButton">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/title_button_margin</item>
+    </style>
+
+    <!-- Text style of properties in post page. -->
+    <style name="PostPropText">
+        <item name="android:textColor">@color/post_text_black</item>
+        <item name="android:textSize">@dimen/post_prop_text_size</item>
+    </style>
+
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_post_height" >
+
+            <Button
+                android:id="@+id/main_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_post" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_post" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/main_post_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_post"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_share_height"
+            android:layout_marginTop="@dimen/main_strip_width" >
+
+            <Button
+                android:id="@+id/main_share"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_share" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_share" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/main_share_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_share"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/main_strip_width" >
+
+            <Button
+                android:id="@+id/main_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_account" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_account" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/main_account_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_account"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/main_strip_width"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_browse_height" >
+
+            <Button
+                android:id="@+id/main_browse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_browse" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_browse" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/main_browse_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_browse"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_bonus_height"
+            android:layout_marginTop="@dimen/main_strip_width" >
+
+            <Button
+                android:id="@+id/main_bonus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_bonus" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_bonus" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/main_bonus_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_bonus"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/main_strip_width" >
+
+            <Button
+                android:id="@+id/main_fans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_fans" />
+
+            <TextView
+                style="@style/MainText"
+                android:text="@string/main_fans" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/main_fans_margin"
+                android:layout_marginRight="@dimen/main_margin"
+                android:src="@drawable/icon_fans"
+                android:contentDescription="@string/cd_icon" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

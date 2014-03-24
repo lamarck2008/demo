@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- basic colors -->
+    <color name="white">#ffffffff</color>
+    <color name="orange_light">#ffffe4cc</color>
+    <color name="orange_dark">#ffff7800</color>
+    <color name="green_dark">#ff22ac38</color>
+    <color name="red">#ffff0000</color>
+    <color name="semi_transparent_white">#c0ffffff</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="black">#ff000000</color>
+
+    <!-- colors used in shared shapes -->
+    <color name="rect_background_default">@color/orange_dark</color>
+    <color name="rect_foreground_default">@color/white</color>
+    <color name="rect_stroke_default">@color/orange_dark</color>
+
+    <!-- colors used in login page -->
+    <color name="login_text_orange">@color/orange_dark</color>
+    <color name="login_text_black">@color/black</color>
+
+    <!-- colors used in main page -->
+    <color name="main_text">@color/white</color>
+    <color name="main_post">#fffe6601</color>
+    <color name="main_browse">#ffffd800</color>
+    <color name="main_share">#ff22ac38</color>
+    <color name="main_bonus">#ffff524e</color>
+    <color name="main_account">#ffff0468</color>
+    <color name="main_fans">#ff00a6eb</color>
+
+    <!-- colors used in page title -->
+    <color name="title_background">@color/orange_light</color>
+    <color name="title_text">@color/orange_dark</color>
+
+    <!-- colors used in tab widget -->
+    <color name="tab_widget_background">@color/orange_dark</color>
+    <color name="tab_widget_text">@color/white</color>
+
+    <!-- colors used in waterfall -->
+    <color name="waterfall_info_background">@color/semi_transparent_white</color>
+    <color name="waterfall_text_red">@color/red</color>
+    <color name="waterfall_text_black">@color/black</color>
+
+    <!-- colors used in post page -->
+    <color name="post_text_white">@color/white</color>
+    <color name="post_text_black">@color/black</color>
+
+    <!-- colors used in bonus page -->
+    <color name="bonus_text_orange">@color/orange_dark</color>
+    <color name="bonus_text_black">@color/black</color>
+    <color name="bonus_level_divider">@color/orange_dark</color>
+    <color name="bonus_history_timeline">@color/black</color>
+    <color name="bonus_history_positive">@color/orange_dark</color>
+    <color name="bonus_history_negative">@color/green_dark</color>
+
+    <!-- colors used in fans page -->
+    <color name="fans_item_divider">@color/orange_dark</color>
+    <color name="fans_item_text">@color/black</color>
+
+    <!-- colors used in decision page -->
+    <color name="decision_text_orange">@color/orange_dark</color>
+    <color name="decision_text_black">@color/black</color>
+
+    <!-- colors used in result page -->
+    <color name="result_option_0">@color/orange_dark</color>
+    <color name="result_option_1">@color/green_dark</color>
+    <color name="result_text_orange">@color/orange_dark</color>
+    <color name="result_text_black">@color/black</color>
+
+</resources>

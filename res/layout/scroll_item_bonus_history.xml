@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="@dimen/bonus_history_timeline_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bonus_history_margin_h1"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/bonus_item_line_up"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bonus_history_timeline_height_up" />
+
+        <View
+            android:id="@+id/bonus_item_line_down"
+            android:background="@color/bonus_history_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bonus_history_timeline_height_down" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bonus_history_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bonus_history_margin_h2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bonus_history_time"
+            android:layout_width="@dimen/bonus_history_time_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textColor="@color/bonus_text_black"
+            android:textSize="@dimen/bonus_history_time_text_size" />
+
+        <ImageView
+            android:id="@+id/bonus_history_circle"
+            android:layout_width="@dimen/bonus_history_circle_size"
+            android:layout_height="@dimen/bonus_history_circle_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/bonus_history_margin_h3"
+            android:background="@drawable/circle"
+            android:contentDescription="@string/cd_icon" />
+
+        <ImageView
+            android:id="@+id/bonus_history_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/bonus_history_margin_h3"
+            android:contentDescription="@string/cd_icon" />
+
+        <TextView
+            android:id="@+id/bonus_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/bonus_history_margin_h3"
+            android:textSize="@dimen/bonus_history_content_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bonus_history_item"
+        android:layout_below="@id/bonus_history_item"
+        android:layout_marginLeft="@dimen/bonus_history_margin_h4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bonus_history_content_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="@dimen/bonus_history_content_text_size" />
+
+        <TextView
+            android:id="@+id/bonus_history_content_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="@dimen/bonus_history_content_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>

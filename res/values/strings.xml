@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- app name -->
+    <string name="app_name">Decision@</string>
+
+    <!-- strings used in view tags -->
+    <string name="tag_top">tag_top</string>
+    <string name="tag_bottom">tag_bottom</string>
+    <string name="tag_visibility">tag_visibility</string>
+    <string name="tag_content">tag_content</string>
+    <string name="tag_item">tag_item</string>
+    <string name="tag_selected">tag_selected</string>
+
+    <!-- strings used in login page -->
+    <string name="login_user_name">账号</string>
+    <string name="login_user_name_default">user_a</string>
+    <string name="login_user_pwd">密码</string>
+    <string name="login_user_pwd_default">123456</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_register">注册</string>
+    <string name="login_third_party">也可以用以下方式登录</string>
+    <string name="login_error_empty">提示：用户名和密码都不能为空。</string>
+    <string name="login_error_invalid">提示：用户名或者密码不正确。</string>
+
+    <!-- strings used in app page -->
+    <string name="main_post">发布</string>
+    <string name="main_browse">决策</string>
+    <string name="main_share">分享</string>
+    <string name="main_bonus">积分</string>
+    <string name="main_account">账户</string>
+    <string name="main_fans">粉丝</string>
+
+    <string name="browse_decision">决策</string>
+    <string name="browse_result">结果</string>
+
+    <!-- strings used in page title -->
+    <string name="title_post">发 布</string>
+    <string name="title_post_send">发送</string>
+    <string name="title_browse">决 策</string>
+    <string name="title_share">分 享</string>
+    <string name="title_bonus">积 分</string>
+    <string name="title_account">账 户</string>
+    <string name="title_account_finish">完成</string>
+    <string name="title_fans">粉 丝</string>
+
+    <string name="title_decision">决 策</string>
+    <string name="title_decision_finish">完成</string>
+    <string name="title_result">结 果</string>
+
+    <!-- strings used in post page -->
+    <string name="post_msg_default">帮我看看哪个更好呢?</string>
+    <string name="post_lasting">有效期</string>
+    <string name="post_hour_default">2</string>
+    <string name="post_hour">小时</string>
+    <string name="post_minute_default">30</string>
+    <string name="post_minute">分</string>
+    <string name="post_snap">显示时间</string>
+    <string name="post_second_default">30</string>
+    <string name="post_second">秒</string>
+    <string name="post_group">群组</string>
+    <string name="post_bonus">悬赏</string>
+    <string name="post_bonus_default">20</string>
+    <string name="post_select_camera">拍照</string>
+    <string name="post_select_album">相册</string>
+    <string name="post_loading">正在发布中，请稍候。</string>
+    <string name="post_success">提示：发布决策成功。</string>
+    <string name="post_failed">提示：发布决策失败，网络错误。</string>
+    <string name="post_error_none_image">提示：请至少上传一张照片。</string>
+
+    <!-- strings used in bonus page -->
+    <string name="bonus_mybonus">我的积分</string>
+    <string name="bonus_level">等级</string>
+    <string name="bonus_level_default">0</string>
+    <string name="bonus_time">时间</string>
+
+    <!-- strings used in fans page -->
+    <string name="fans_search_hint">搜索好友</string>
+
+    <!-- strings used in decision page -->
+    <string name="decision_countdown">倒计时</string>
+    <string name="decision_bonus">积分</string>
+    <string name="decision_success">提示：投票成功。</string>
+    <string name="decision_failed">提示：投票失败，网络错误。</string>
+    <string name="decision_error_none_image">提示：请至少选择一个选项。</string>
+
+    <!-- strings used in result page -->
+    <string name="result_countdown">倒计时</string>
+    <string name="result_bonus">积分</string>
+    <string name="result_button_bonus">悬赏</string>
+    <string name="result_button_share">分享</string>
+
+    <!-- content description strings -->
+    <string name="cd_icon">[ICON]</string>
+    <string name="cd_button">[BUTTON]</string>
+    <string name="cd_background_image">[BACKGROUND_IMAGE]</string>
+    <string name="cd_option_image">[OPTION_IMAGE]</string>
+    <string name="cd_portrait">[PORTRAIT]</string>
+    <string name="cd_histogram">[HISTOGRAM]</string>
+    
+    <!-- strings used in share page -->
+    <string name="like_success">提示：成功。</string>
+    <string name="like_failed">提示：投票失败，网络错误。</string>
+
+</resources>
